@@ -28,7 +28,7 @@ This site highlights my experience building production-ready applications, optim
 
 ## Live Site
 
-[Add your deployed URL here]
+https://kavya-portfolio-nine.vercel.app
 
 ---
 
