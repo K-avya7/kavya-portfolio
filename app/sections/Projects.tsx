@@ -33,7 +33,7 @@ export default function Projects() {
           <ProjectCard
             title="Portfolio Website"
             stack="Next.js · Tailwind · Framer Motion"
-            description="Designed and developed a dynamic developer portfolio featuring animated ombre backgrounds, scroll-triggered transitions, and GitHub Pages deployment."
+            description="Designed and developed a dynamic developer portfolio featuring animated ombre backgrounds, scroll-triggered transitions, and Vercel deployment."
             github="https://github.com/yourusername/portfolio-website"
           />
 
