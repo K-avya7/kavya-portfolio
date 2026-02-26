@@ -39,6 +39,10 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${spaceGrotesk.variable} ${allura.variable}`}
     >
+      <head>
+        {/* 🔧 Critical fix for GitHub Pages subpath */}
+        <base href="/kavya-portfolio/" />
+      </head>
       <body className="bg-[#0a0a0a] text-zinc-200">
         {/* Intro Overlay */}
         {!introFinished && (
