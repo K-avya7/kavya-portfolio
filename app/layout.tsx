@@ -42,6 +42,7 @@ export default function RootLayout({
       <head>
         {/* 🔧 Critical fix for GitHub Pages subpath */}
         <base href="/kavya-portfolio/" />
+        <meta name="color-scheme" content="dark" />
       </head>
       <body className="bg-[#0a0a0a] text-zinc-200">
         {/* Intro Overlay */}
