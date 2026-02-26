@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[35538,["/kavya-portfolio/_next/static/chunks/0c5c96a5bd473bda.js","/kavya-portfolio/_next/static/chunks/c06ef30ca492c6c0.js"],"default"]
 3:I[94862,["/kavya-portfolio/_next/static/chunks/0c5c96a5bd473bda.js","/kavya-portfolio/_next/static/chunks/c06ef30ca492c6c0.js"],"default"]
-0:{"buildId":"_VGdm1cXShJvqls444zZ7","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"k4kBymoC3-1VT4sA7umii","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
