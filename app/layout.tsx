@@ -42,9 +42,9 @@ export default function RootLayout({
       <head>
         {/* 🔧 Critical fix for GitHub Pages subpath */}
         <base href="/kavya-portfolio/" />
-        <meta name="color-scheme" content="dark" />
+        <meta name="color-scheme" content="light" />
       </head>
-      <body className="bg-[#0a0a0a] text-zinc-200">
+      <body className="bg-white text-slate-900">
         {/* Intro Overlay */}
         {!introFinished && (
           <IntroOverlay onFinish={() => setIntroFinished(true)} />

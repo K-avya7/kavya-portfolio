@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #ffffff;
+  --foreground: #1a1a1a;
 }
 
 
 html, body {
-  background-color: #0a0a0a;
-  color: #ededed;
+  background-color: #ffffff;
+  color: #1a1a1a;
   margin: 0;
   padding: 0;
 }
@@ -27,25 +27,15 @@ html {
   position: absolute;
   inset: 0;
   background: linear-gradient(
-      120deg,
-      #0a0a0a 15%,
-      rgba(167, 139, 250, 0.35) 45%,
-      rgba(139, 92, 246, 0.25) 65%,
-      #0a0a0a 85%
-    ),
-    radial-gradient(
-      circle at 30% 30%,
-      rgba(196, 181, 253, 0.35),
-      transparent 60%
-    ),
-    radial-gradient(
-      circle at 70% 70%,
-      rgba(167, 139, 250, 0.25),
-      transparent 60%
-    );
+    180deg,
+    #ffffff 0%,      /* pure white top */
+    #e6eef8 40%,     /* soft blue tint */
+    #c7d7ec 75%,     /* steel blue */
+    #aebfd6 100%     /* muted depth */
+  );
 
   background-size: 200% 200%;
-  animation: ombreMove 20s ease infinite alternate;
+  animation: ombreMove 30s ease-in-out infinite alternate;
   z-index: 0;
 }
 

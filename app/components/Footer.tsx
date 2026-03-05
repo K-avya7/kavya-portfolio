@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-white/10">
+    <footer className="relative border-t border-gray-300">
       <div className="wave-bg" />
 
       <motion.div
@@ -28,7 +28,7 @@ export default function Footer() {
             />
 
             <h3
-              className="text-3xl text-white"
+              className="text-3xl text-slate-900"
               style={{ fontFamily: "var(--font-script)" }}
             >
               Kavya Agrawal
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
 
           {/* Right: Tagline */}
-          <div className="text-zinc-400 text-sm">
+          <div className="text-slate-600 text-sm">
             Made with{" "}
             <span className="text-[var(--accent)]">♥</span>{" "}
             by Kavya

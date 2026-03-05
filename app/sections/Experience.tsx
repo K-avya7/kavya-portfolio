@@ -10,7 +10,7 @@ export default function Experience() {
 
       <div className="relative z-10 max-w-5xl mx-auto">
 
-        <h2 className="text-3xl md:text-4xl font-semibold mb-20 text-white">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-20 text-slate-900">
           Internship Experience
         </h2>
 

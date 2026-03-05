@@ -53,7 +53,7 @@ export default function Navbar() {
     <div className="fixed top-6 left-0 w-full flex justify-center z-50">
       <nav
         ref={dropdownRef}
-        className="relative w-[92%] md:w-[85%] rounded-2xl backdrop-blur-xl bg-white/5 border border-white/20 px-6 md:px-10 py-4 flex items-center justify-between"
+        className="relative w-[92%] md:w-[85%] rounded-2xl backdrop-blur-xl bg-black/5 border border-gray-400 px-6 md:px-10 py-4 flex items-center justify-between"
       >
         {/* Left: Logo */}
         <div className="flex items-center gap-4">
@@ -66,7 +66,7 @@ export default function Navbar() {
           />
 
           <span
-            className="text-2xl text-white"
+            className="text-2xl text-slate-900"
             style={{ fontFamily: "var(--font-script)" }}
           >
             Kavya Agrawal
@@ -83,17 +83,17 @@ export default function Navbar() {
               className="flex flex-col gap-1.5"
             >
               <span
-                className={`h-0.5 w-6 bg-white transition ${
+                className={`h-0.5 w-6 bg-slate-900 transition ${
                   open ? "rotate-45 translate-y-2" : ""
                 }`}
               />
               <span
-                className={`h-0.5 w-6 bg-white transition ${
+                className={`h-0.5 w-6 bg-slate-900 transition ${
                   open ? "opacity-0" : ""
                 }`}
               />
               <span
-                className={`h-0.5 w-6 bg-white transition ${
+                className={`h-0.5 w-6 bg-slate-900 transition ${
                   open ? "-rotate-45 -translate-y-2" : ""
                 }`}
               />
@@ -104,14 +104,14 @@ export default function Navbar() {
           {isResume ? (
             <Link
               href="/"
-              className="px-5 py-2 rounded-lg bg-black/80 text-white text-sm hover:bg-black transition"
+              className="px-5 py-2 rounded-lg bg-slate-900/80 text-white text-sm hover:bg-slate-900 transition"
             >
               Home
             </Link>
           ) : (
             <Link
               href="/resume"
-              className="px-5 py-2 rounded-lg bg-black/80 text-white text-sm hover:bg-black transition"
+              className="px-5 py-2 rounded-lg bg-slate-900/80 text-white text-sm hover:bg-slate-900 transition"
             >
               Resume
             </Link>
@@ -125,13 +125,13 @@ export default function Navbar() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -8 }}
                 transition={{ duration: 0.2 }}
-                className="absolute right-0 top-14 w-52 rounded-xl backdrop-blur-xl bg-white/5 border border-white/10 shadow-lg py-4"
+                className="absolute right-0 top-14 w-52 rounded-xl backdrop-blur-xl bg-black/5 border border-gray-300 shadow-lg py-4"
               >
                 {sections.map((section) => (
                   <button
                     key={section.name}
                     onClick={() => handleScroll(section.id)}
-                    className="block w-full text-left px-6 py-2 text-zinc-300 hover:text-white hover:bg-white/5 transition"
+                    className="block w-full text-left px-6 py-2 text-slate-600 hover:text-slate-900 hover:bg-black/5 transition"
                   >
                     {section.name}
                   </button>

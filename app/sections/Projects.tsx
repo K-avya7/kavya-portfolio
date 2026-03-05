@@ -4,13 +4,13 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative py-32 px-8 md:px-20 border-t border-zinc-900 overflow-hidden"
+      className="relative py-32 px-8 md:px-20 border-t border-gray-300 overflow-hidden"
     >
       <div className="wave-bg" />
 
       <div className="relative z-10 max-w-6xl mx-auto">
 
-        <h2 className="text-3xl md:text-4xl font-semibold mb-20 text-white">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-20 text-slate-900">
         Projects
         </h2>
 

@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative py-36 px-8 border-t border-zinc-900 overflow-hidden text-center"
+      className="relative py-36 px-8 border-t border-gray-300 overflow-hidden text-center"
     >
       <div className="wave-bg" />
 
@@ -26,20 +26,20 @@ export default function Contact() {
       >
         {/* Heading */}
         <h2
-          className="text-5xl md:text-6xl mb-12 text-white"
+          className="text-5xl md:text-6xl mb-12 text-slate-900"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          Let’s Connect
+          Let's Connect
         </h2>
 
         {/* Contact Info */}
-        <div className="space-y-6 text-lg text-zinc-300">
+        <div className="space-y-6 text-lg text-slate-700">
 
           <div className="flex items-center justify-center gap-3">
             <FiMail className="text-[var(--accent)] text-xl" />
             <a
               href="mailto:kavya1507.agr@gmail.com"
-              className="hover:text-white transition"
+              className="hover:text-slate-600 transition"
             >
               kavya1507.agr@gmail.com
             </a>
@@ -53,7 +53,7 @@ export default function Contact() {
 
         {/* Socials */}
         <div className="mt-14">
-          <p className="text-zinc-400 tracking-widest mb-6">
+          <p className="text-slate-600 tracking-widest mb-6">
             SOCIALS
           </p>
 
@@ -61,7 +61,7 @@ export default function Contact() {
             <a
               href="https://github.com/K-avya7"
               target="_blank"
-              className="text-zinc-400 hover:text-white transition"
+              className="text-slate-600 hover:text-slate-900 transition"
             >
               <SiGithub />
             </a>
@@ -69,7 +69,7 @@ export default function Contact() {
             <a
               href="http://linkedin.com/in/kavyaagrawal15/"
               target="_blank"
-              className="text-zinc-400 hover:text-white transition"
+              className="text-slate-600 hover:text-slate-900 transition"
             >
               <SiLinkedin />
             </a>
@@ -77,7 +77,7 @@ export default function Contact() {
             <a
               href="https://leetcode.com/u/user4484mv/"
               target="_blank"
-              className="text-zinc-400 hover:text-white transition"
+              className="text-slate-600 hover:text-slate-900 transition"
             >
               <SiLeetcode />
             </a>
@@ -85,7 +85,7 @@ export default function Contact() {
             <a
               href="https://medium.com/@kavya1507.agr"
               target="_blank"
-              className="text-zinc-400 hover:text-white transition"
+              className="text-slate-600 hover:text-slate-900 transition"
             >
               <SiMedium />
             </a>

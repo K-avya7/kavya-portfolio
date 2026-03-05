@@ -15,11 +15,11 @@ export default function ExperienceCard({ company, role, points }: Props) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="relative bg-zinc-900/40 backdrop-blur-md border border-zinc-800 rounded-xl p-8 shadow-lg"
+      className="relative bg-white/40 backdrop-blur-md border border-gray-300 rounded-xl p-8 shadow-lg"
     >
       {/* Header Row */}
       <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
-        <h3 className="text-xl font-semibold text-white">
+        <h3 className="text-xl font-semibold text-slate-900">
           {company}
         </h3>
 
@@ -29,7 +29,7 @@ export default function ExperienceCard({ company, role, points }: Props) {
       </div>
 
       {/* Bullet Points */}
-      <ul className="space-y-4 text-zinc-400 leading-relaxed">
+      <ul className="space-y-4 text-slate-700 leading-relaxed">
         {points.map((point, index) => (
           <li key={index}>• {point}</li>
         ))}

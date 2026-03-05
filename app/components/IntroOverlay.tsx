@@ -57,7 +57,7 @@ export default function IntroOverlay({ onFinish }: Props) {
           transition={{ duration: 0.5 }}
         >
           <div
-            className="flex text-5xl md:text-7xl tracking-wide"
+            className="flex text-5xl md:text-7xl tracking-wide text-white"
             style={{ fontFamily: "var(--font-script)" }}
           >
             <motion.span

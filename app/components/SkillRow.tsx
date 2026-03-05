@@ -18,7 +18,7 @@ export default function SkillRow({ skills, direction }: Props) {
         {[...skills, ...skills].map((skill, index) => (
           <div
             key={index}
-            className="flex items-center gap-3 text-zinc-300 text-lg whitespace-nowrap hover:text-white transition"
+            className="flex items-center gap-3 text-slate-600 text-lg whitespace-nowrap hover:text-slate-900 transition"
           >
             {skill.icon && <span className="text-xl">{skill.icon}</span>}
             {skill.name}

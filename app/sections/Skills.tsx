@@ -23,13 +23,13 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative py-32 overflow-hidden border-t border-zinc-900"
+      className="relative py-32 overflow-hidden border-t border-gray-300"
     >
       <div className="wave-bg" />
 
       <div className="relative z-10 text-center">
 
-        <h2 className="text-3xl md:text-4xl font-semibold mb-20 text-white">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-20 text-slate-900">
         Skills
         </h2>
 

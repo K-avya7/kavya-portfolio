@@ -24,11 +24,11 @@ export default function ProjectCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.7, ease: "easeOut" }}
-      className="group bg-zinc-900/40 backdrop-blur-md border border-zinc-800 rounded-2xl p-8 transition hover:border-[var(--accent)] hover:-translate-y-2 duration-300"
+      className="group bg-white/40 backdrop-blur-md border border-gray-300 rounded-2xl p-8 transition hover:border-[var(--accent)] hover:-translate-y-2 duration-300"
     >
       {/* Header */}
       <div className="flex justify-between items-start mb-4">
-        <h3 className="text-xl font-semibold text-white group-hover:text-[var(--accent)] transition">
+        <h3 className="text-xl font-semibold text-slate-900 group-hover:text-[var(--accent)] transition">
           {title}
         </h3>
 
@@ -37,16 +37,16 @@ export default function ProjectCard({
             href={github}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-zinc-400 hover:text-white transition text-xl"
+            className="text-slate-600 hover:text-slate-900 transition text-xl"
           >
             <SiGithub />
           </a>
         )}
       </div>
 
-      <p className="text-sm text-zinc-500 mb-4">{stack}</p>
+      <p className="text-sm text-slate-600 mb-4">{stack}</p>
 
-      <p className="text-zinc-400 leading-relaxed">{description}</p>
+      <p className="text-slate-700 leading-relaxed">{description}</p>
 
       {highlight && (
         <p className="mt-4 text-sm text-[var(--accent)]">{highlight}</p>
